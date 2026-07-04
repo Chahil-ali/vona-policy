@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vona — Delete your data</title>
+  <style>
+    :root {
+      --bg: #faf5ff; --card: #ffffff; --border: #efe7fc;
+      --text: #231a3c; --soft: #5f5876; --violet: #7c3aed; --navy: #0a062f;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+    header { background: var(--navy); color: #fff; text-align: center; padding: 44px 20px 36px; }
+    header .logo { display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #8b5cf6, #6d28d9); font-size: 34px; font-weight: 800; margin-bottom: 12px; }
+    header h1 { font-size: 26px; }
+    header p { color: #b9a8f5; margin-top: 4px; font-size: 14px; }
+    main { max-width: 720px; margin: 24px auto 60px; padding: 0 20px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 26px 28px; margin-bottom: 18px; box-shadow: 0 6px 24px rgba(124, 58, 237, 0.06); }
+    h2 { color: var(--violet); font-size: 18px; margin-bottom: 10px; }
+    p, li { color: var(--soft); font-size: 15px; }
+    ol, ul { padding-left: 22px; margin-top: 8px; }
+    li { margin-bottom: 8px; }
+    strong { color: var(--text); }
+    a { color: var(--violet); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; color: var(--soft); font-size: 13px; padding: 0 20px 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">V</div>
+    <h1>Delete your Vona data</h1>
+    <p>Vona — voice-first AI journal by A&amp;S Dev Studio</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Your journal is stored on your phone</h2>
+      <p>Vona has no user accounts and keeps no copy of your journal on any server.
+      All entries, photos, voice recordings, places and settings exist only on your device.</p>
+    </div>
+
+    <div class="card">
+      <h2>How to delete your data</h2>
+      <ol>
+        <li><strong>Delete entries in the app:</strong> open an entry and tap the trash icon.
+        Deleted entries move to "Recently Deleted" and are erased forever after 30 days —
+        or immediately if you choose <strong>Delete forever</strong>, which also removes the
+        entry's photo and audio files from your phone.</li>
+        <li><strong>Delete everything:</strong> uninstalling the Vona app permanently removes
+        all app data (journal, media, settings, PIN) from your device.</li>
+        <li><strong>Server-side records:</strong> to request deletion of the small amount of
+        data that can exist outside your phone (see below), email us at
+        <a href="mailto:alichahil047@gmail.com?subject=Vona%20data%20deletion%20request">alichahil047@gmail.com</a>
+        with the subject "Vona data deletion request". We process requests within 30 days.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>What is deleted and what is kept</h2>
+      <ul>
+        <li><strong>Journal content (text, audio, photos, places):</strong> stored only on your
+        device — deleted by you in the app or by uninstalling. Content sent to the AI service is
+        processed only to generate a response and is not stored by us.</li>
+        <li><strong>Anonymous device ID and usage counters:</strong> deleted on request via email.</li>
+        <li><strong>Subscription purchase records:</strong> processed by RevenueCat and Google Play.
+        Deleted from RevenueCat on request via email; Google Play keeps its own billing records
+        according to Google's policies (we cannot delete those for you).</li>
+      </ul>
+      <p>No other data about you is held. There is no additional retention period beyond the ones
+      described above.</p>
+    </div>
+  </main>
+
+  <footer>Vona · A&amp;S Dev Studio · <a href="index.html">Privacy Policy</a></footer>
+</body>
+</html>
